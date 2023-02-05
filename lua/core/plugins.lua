@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.1',  
+    'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use {
@@ -28,6 +28,14 @@ return require('packer').startup(function(use)
     'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig',
   }
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
+  use 'windwp/nvim-autopairs'
+  use 'ThePrimeagen/vim-be-good'
+  use 'sbdchd/neoformat'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
