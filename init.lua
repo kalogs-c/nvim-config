@@ -1,6 +1,6 @@
-require("core.keymaps")
-require("core.plugins")
-require("core.plugin_config")
+require("kalogs-c.keymaps")
+require("kalogs-c.plugins")
+require("kalogs-c.plugin_config")
 
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2

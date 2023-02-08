@@ -1,0 +1,8 @@
+require("kalogs-c.plugin_config.gruvbox")
+require("kalogs-c.plugin_config.lualine")
+require("kalogs-c.plugin_config.nvim-tree")
+require("kalogs-c.plugin_config.treesitter")
+require("kalogs-c.plugin_config.telescope")
+require("kalogs-c.plugin_config.lsp_config")
+require("kalogs-c.plugin_config.completions")
+require("kalogs-c.plugin_config.autopairs")
