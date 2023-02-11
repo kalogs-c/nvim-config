@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'ThePrimeagen/vim-be-good'
   use 'sbdchd/neoformat'
+  use 'andweeb/presence.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
